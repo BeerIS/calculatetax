@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="taxresult.php" method="post">
+        <h1>ข้อมูลผู้เสียภาษี</h1>
+        <strong>ชื่อ: </strong><input type="text" name="txtFirstName" id=""><br>
+        <strong>นามสกุล: </strong><input type="text" name="txtLastName" id=""><br>
+        <strong>เลขประจำตัวประชาชน: </strong><input type="text" name="txtId" id=""><br>
+        <h1>ข้อมูลเงินได้</h1>
+        <strong>เงินเดือนต่อเดือน: </strong><input type="text" name="txtSalary"><br>
+        <strong>เงินโบนัส: </strong><input type="text" name="txtBonus"><br>
+        <h1>ข้อมูลค่าลดหย่อน</h1>
+        <strong>ประกันสังคม: </strong><input type="text" name="txtWelfare"><br>
+        <strong>กองทุนสำรองเลี้ยงชีพ: </strong><input type="text" name="txtProvident"><br><br>
+
+        <button type="submit">Submit</button> <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
